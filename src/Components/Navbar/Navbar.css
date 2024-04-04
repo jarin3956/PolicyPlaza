@@ -1,0 +1,151 @@
+.nav-bar-item {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3390E0;
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.nav-bar-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.nav-bar-item:hover {
+    color: #FBBF3D;
+    animation: jump 0.5s infinite;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.nav-bar-item:hover::after {
+    background-color: #3390E0;
+}
+
+
+
+.login-btn {
+    background-color: transparent;
+    border: 2px solid #3390E0;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: .5em .5em .5em .5em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 13px;
+}
+
+.login-btn::before {
+    content: " ";
+    width: 1.5em;
+    height: 2px;
+    background: #3390E0;
+    top: 50%;
+    left: .5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+}
+
+.login-btn .text {
+    font-size: .9em;
+    line-height: 1.33333em;
+    padding-left: 2.5em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3390E0;
+}
+
+.login-btn .top-key {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+.login-btn .bottom-key-1 {
+    height: 2px;
+    width: 1.6rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.login-btn .bottom-key-2 {
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.login-btn:hover {
+    color: white;
+    background: #3390E0;
+}
+
+.login-btn:hover::before {
+    width: 0.375rem;
+    background: white;
+}
+
+.login-btn:hover .text {
+    color: white;
+    padding-left: .5em;
+}
+
+.login-btn:hover .top-key {
+    left: -2px;
+    width: 0px;
+}
+
+.login-btn:hover .bottom-key-1,
+.login-btn:hover .bottom-key-2 {
+    right: 0;
+    width: 0;
+}
+
+
