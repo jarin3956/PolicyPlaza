@@ -27,5 +27,6 @@
     height: 10px;
     margin: 5px;
     border-radius: 48%;
-    background-color: rgb(99, 237, 232);
+    background-color:  #3390E0;
+    border: 2px solid  white;
 }
