@@ -4,6 +4,7 @@
     color: #3390E0;
     cursor: pointer;
     margin-right: 20px;
+    margin-top: 15px;
     position: relative;
     transition: color 0.3s;
 }

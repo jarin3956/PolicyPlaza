@@ -1,0 +1,41 @@
+.partner-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.part-container {
+    max-width: 1000px;
+}
+
+.partner-head{
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.partner-head:hover{
+    color: #3390E0;
+}
+
+.logo-holder {
+    background-color: white;
+    height: 90px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.logo-holder:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px #b3d1ea;
+}
+
+.partner-img {
+    height: 50px;
+}
+
