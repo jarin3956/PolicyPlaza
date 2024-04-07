@@ -6,6 +6,8 @@ import PartnerCard from '../Components/PartnersCard/PartnerCard';
 import AdvantageCard from '../Components/AdvantageCard/AdvantageCard';
 import AchievementCard from '../Components/AchievementCard/AchievementCard';
 import ServiceCard from '../Components/ServiceCard/ServiceCard';
+import OffersCard from '../Components/OffersCard/OffersCard';
+import CautionCard from '../Components/CautionCard/CautionCard';
 
 function LandingPage() {
   return (
@@ -13,7 +15,9 @@ function LandingPage() {
     <Navbar/>
     <BannerCard/>
     <ServiceCard/>
+    <OffersCard/>
     <AchievementCard/>
+    <CautionCard/>
     <AdvantageCard/>
     <PartnerCard/>
     <Footer/>

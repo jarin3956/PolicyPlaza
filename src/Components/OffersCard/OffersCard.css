@@ -1,0 +1,201 @@
+.offr-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(115, 124, 197, 0.08);
+}
+
+.offr-container {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offr-cardarea{
+    display: flex;
+    justify-content: center;
+}
+
+
+.offr-cardpp {
+    width: 320px;
+    height: 220px;
+    background: linear-gradient(to right,rgb(137, 104, 255),rgb(175, 152, 255));
+    gap: 10px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .offr-cardpp::before {
+    width: 150px;
+    height: 150px;
+    content: "";
+    background: linear-gradient(to right,rgb(142, 110, 255),rgb(208, 195, 255));
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    right: -25%;
+    top: -25%;
+  }
+  
+  
+  .km-btnpp {
+    padding: 11px 20px;
+    background-color: #7b57ff;
+    border: none;
+    color: rgb(241, 241, 241);
+    cursor: pointer;
+    font-weight: 600;
+    z-index: 2;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .km-btnpp:hover {
+    background-color: #714aff;
+    transform: translate(0px, -5px);
+  }
+
+  .offr-cardb {
+    width: 320px;
+    height: 220px;
+    background: linear-gradient(to right, rgb(94, 170, 255), rgb(153, 204, 255));
+    gap: 10px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .offr-cardb::before {
+    width: 150px;
+    height: 150px;
+    content: "";
+    background: linear-gradient(to right, rgb(64, 140, 255), rgb(102, 184, 255));
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    right: -25%;
+    top: -25%;
+  }
+
+  .km-btnb {
+    padding: 11px 20px;
+    background-color: #4a90e2;
+    border: none;
+    color: rgb(241, 241, 241);
+    cursor: pointer;
+    font-weight: 600;
+    z-index: 2;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .km-btnb:hover {
+    background-color: #357bd8;
+    transform: translate(0px, -5px);
+  }
+
+  .offr-cardy {
+    width: 320px;
+    height: 220px;
+    background: linear-gradient(to right, rgb(255, 204, 0), rgb(215, 191, 105));
+    gap: 10px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .offr-cardy::before {
+    width: 150px;
+    height: 150px;
+    content: "";
+    background: linear-gradient(to right, rgb(250, 207, 54), rgb(255, 247, 194));
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    right: -25%;
+    top: -25%;
+  }
+
+  .km-btny {
+    padding: 11px 20px;
+    background-color: #edca61;
+    border: none;
+    color: rgb(241, 241, 241);
+    cursor: pointer;
+    font-weight: 600;
+    z-index: 2;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .km-btny:hover {
+    background-color: #ffad05;
+    transform: translate(0px, -5px);
+  }
+
+
+  .offr-cardp {
+    width: 320px;
+    height: 220px;
+    background: linear-gradient(to right, rgb(255, 109, 192), rgb(255, 163, 224));
+    gap: 10px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .offr-cardp::before {
+    width: 150px;
+    height: 150px;
+    content: "";
+    background: linear-gradient(to right, rgb(255, 163, 224), rgb(255, 204, 229));
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    right: -25%;
+    top: -25%;
+  }
+
+  .km-btnp {
+    padding: 11px 20px;
+    background-color: #e91e63;
+    border: none;
+    color: rgb(241, 241, 241);
+    cursor: pointer;
+    font-weight: 600;
+    z-index: 2;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .km-btnp:hover {
+    background-color: #d81257;
+    transform: translate(0px, -5px);
+  }
+
+
+
+  .offr-cardhead {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(241, 241, 241);
+    z-index: 2;
+  }
+  
+  
+  .offr-carddesc {
+    font-size: 0.9em;
+    color: rgb(241, 241, 241);
+    z-index: 2;
+  }
+  

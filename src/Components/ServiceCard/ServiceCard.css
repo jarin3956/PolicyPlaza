@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
+    padding: 0;
+    margin: 0;
 }
 
 .serv-container {
@@ -16,7 +18,7 @@
     background-color: rgb(164, 215, 238);
 }
 
-.serv-cardarea{
+.serv-cardarea {
     display: flex;
     justify-content: center;
 }
@@ -39,9 +41,9 @@
     flex-direction: column;
     cursor: pointer;
     /* font-family: 'Poppins', sans-serif; */
-  }
-  
-  .serv-icon {
+}
+
+.serv-icon {
     margin: 0 auto;
     width: 100%;
     height: 80px;
@@ -52,47 +54,69 @@
     transition: all 0.8s ease;
     background-position: 0px;
     background-size: 200px;
-  }
-  
-  
-  .serv-card .serv-title {
+}
+
+
+.serv-card .serv-title {
     width: 100%;
     margin: 0;
     text-align: center;
     margin-top: 30px;
-    color:  #292929;
+    color: #292929;
     font-weight: 500;
     text-transform: uppercase;
-  }
-  
-  .serv-card .serv-text {
+}
+
+.serv-card .serv-text {
     width: 80%;
-    margin: 0 ;
+    margin: 0;
     font-size: 13px;
     text-align: center;
     margin-top: 10px;
-    color:  #292929;
+    color: #292929;
     font-weight: 200;
     opacity: 0;
     max-height: 0;
     transition: all 0.3s ease;
-  }
-  
-  .serv-card:hover {
+}
+
+.serv-card:hover {
     height: 230px;
-  }
-  
-  .serv-card:hover .serv-text {
+}
+
+.serv-card:hover .serv-text {
     transition: all 0.3s ease;
     opacity: 1;
     max-height: 40px;
-  }
-  
-  .serv-card:hover .serv-icon {
+}
+
+.serv-card:hover .serv-icon {
     background-position: -120px;
     transition: all 0.3s ease;
-  }
-  
-  .serv-card:hover .serv-icon img {
+}
+
+.serv-card:hover .serv-icon img {
     transition: all 0.3s ease;
-  }
+}
+
+.serv-head-area {
+    text-align: center;
+    
+}
+
+.serv-main-head {
+    font-size: 30px;
+    color: #3390E0;
+    margin: 0;
+    padding: 0;
+}
+.serv-mainfo-head {
+    font-size: 30px;
+    font-weight: 700;
+    color: #065193;
+    margin: 0;
+    padding: 0;
+}
+
+
+

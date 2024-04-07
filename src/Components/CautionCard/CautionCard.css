@@ -1,0 +1,106 @@
+.full-caut {
+    background-color: rgba(73, 74, 80, 0.1);
+    min-height: 70vh;
+
+}
+.caut-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.caut-container {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caut-cardarea {
+    display: flex;
+    justify-content: center;
+}
+
+
+.caut-main-head {
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.caut-main-head:hover {
+    color: #3390E0;
+}
+
+
+
+.caut-card {
+    position: relative;
+    width: 300px;
+    height: 320px;
+    color: #2e2d31;
+    background: white;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 2px solid rgb(172, 170, 170);
+    margin-bottom: 10px;
+}
+
+.caut-header {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 6px 12px;
+    color: #f8f8f8;
+}
+
+.caut-catitle {
+    font-weight: bold;
+}
+
+.caut-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgb(164, 215, 238);
+    border-top-left-radius: 20px;
+    transform: translateY(150px);
+    transition: transform .25s;
+}
+
+.caut-content::before {
+    content: '';
+    position: absolute;
+    top: -47px;
+    right: -45px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-175deg);
+    border-radius: 50%;
+    box-shadow: inset 48px 48px rgb(164, 215, 238);
+}
+
+.caut-catitle {
+    color: #131313;
+    line-height: 15px;
+}
+
+
+.caut-cadesc {
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.caut-card:hover .caut-content {
+    transform: translateY(0);
+}
+
+.caut-card:hover .caut-cadesc {
+    opacity: 1;
+    transition-delay: .25s;
+}
